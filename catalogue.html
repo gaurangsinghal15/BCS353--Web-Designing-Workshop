@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue Page</title>
+    <style>
+        table {
+            border: 2px solid black;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 150px auto;
+            font-family: Arial, sans-serif;
+        }
+        th {
+            border: 2px solid #000;
+            text-align: center;
+            background-color: rgb(63, 183, 226);
+            color: #000;
+            padding: 10px;
+        }
+        td {
+            border-left: 2px solid #000;
+            text-align: center;
+            padding: 10px;
+        }
+        td:first-child {
+            border-left: none;/
+        }
+        tr {
+            border-bottom: none;
+        }
+        tr td {
+            border-bottom: 0;
+        }
+        tr:hover td {
+            background-color: #F0F0F0;
+        }
+        tr:hover .try {
+            background-color: white;
+        }
+        .description-cell {
+            text-align: center;
+            vertical-align: middle;
+            font-size: 16px;
+            font-weight: bold; 
+        }
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100px;
+            max-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="1">
+                <img src="psit.png" alt="Logo">
+            </th>
+            <th colspan="5"><h3>PRANVEER SINGH INSTITUTE OF TECHNOLOGY, KANPUR</h3></th>
+        </tr>
+        <tr>
+            <th><a href="home.html">Home</a></th>
+            <th><a href="login.html">Login</a></th>
+            <th><a href="registration.html">Registration</a></th>
+            <th><a href="catalogue.html">Catalogue</a></th>
+            <th><a href="cartpage.html">Cart</a></th>
+        </tr>
+        <tr>
+            <td class="try"><a href="csebutton.html">CSE </a> </td>CSE</a></td>
+            <td><img src="XML.jpeg" alt="XML Bible"></td>
+            <td><b>Book:</b> XML Bible<br><b>Author:</b> Winston<br><b>Publisher:</b> Wiley</td>
+            <td>$40.5</td>
+            <td><button type="submit">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td class="try"><a href="ecebutton.html">ECE </a> </td>ECE</a></td>
+            <td><img src="AI.jpg" alt="AI"></td>
+            <td><b>Book:</b> AI<br><b>Author:</b> S. Russell<br><b>Publisher:</b> Princeton Hall</td>
+            <td>$63</td>
+            <td><button type="submit">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td class="try"><a href="eeebutton.html">EEE </a> </td>EEE</a></td>
+            <td><img src="java.jpeg" alt="Java 2"></td>
+            <td><b>Book:</b> Java 2<br><b>Author:</b> Watson<br><b>Publisher:</b> BP Publications</td>
+            <td>$35.5</td>
+            <td><button type="submit">Add to cart</button></td>
+        </tr>
+        <tr>
+            <td class="try"><a href="civilbutton">CIVIL</a></td>
+            <td><img src="html.jpeg" alt="HTML in 24 Hours"></td>
+            <td><b>Book:</b> HTML in 24 Hours<br><b>Author:</b> Sam Peter<br><b>Publisher:</b> Sam
+                Publications</td>
+            <td>$50</td>
+            <td><button type="submit">Add to cart</button></td>
+        </tr>
+    </table>
+</body>
+</html>
